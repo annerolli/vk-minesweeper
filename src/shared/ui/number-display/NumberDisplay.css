@@ -1,0 +1,51 @@
+.NumberDisplay {
+  display: flex;
+}
+
+.NumberDisplay__Element {
+  width: 13px;
+  height: 23px;
+  background-image: var(--sprite);
+  background-repeat: no-repeat;
+}
+
+
+.NumberDisplay__Element--0 {
+  background-position: -126px 0px;
+}
+
+.NumberDisplay__Element--1 {
+  background-position: 0px 0px;
+}
+
+.NumberDisplay__Element--2 {
+  background-position: -14px 0px;
+}
+
+.NumberDisplay__Element--3 {
+  background-position: -28px 0px;
+}
+
+.NumberDisplay__Element--4 {
+  background-position: -42px 0px;
+}
+
+.NumberDisplay__Element--5 {
+  background-position: -56px 0px;
+}
+
+.NumberDisplay__Element--6 {
+  background-position: -70px 0px;
+}
+
+.NumberDisplay__Element--7 {
+  background-position: -84px 0px;
+}
+
+.NumberDisplay__Element--8 {
+  background-position: -98px 0px;
+}
+
+.NumberDisplay__Element--9 {
+  background-position: -112px 0px;
+}
