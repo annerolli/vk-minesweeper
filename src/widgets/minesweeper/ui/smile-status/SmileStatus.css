@@ -1,0 +1,21 @@
+.SmileStatus {
+  all: unset;
+  width: 26px;
+  height: 26px;
+  font-size: 0;
+  background-image: var(--sprite);
+  background-repeat: no-repeat;
+  background-position: 0px -24px;
+}
+
+.SmileStatus--win {
+  background-position: -81px -24px;
+}
+
+.SmileStatus--lose {
+  background-position: -108px -24px;
+}
+
+.SmileStatus--oh {
+  background-position: -54px -24px;
+}

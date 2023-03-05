@@ -1,0 +1,67 @@
+.Field {
+  all: unset;
+  width: 16px;
+  height: 16px;
+
+  background-image: var(--sprite);
+  background-repeat: no-repeat;
+  background-position: 0px -51px;
+
+  font-size: 0;
+}
+
+/* open, bomb */
+
+
+.Field--open {
+  background-position: -17px -51px;
+}
+
+.Field--flag {
+  background-position: -34px -51px;
+}
+
+.Field--question {
+  background-position: -51px -51px;
+}
+
+.Field--blown-up-bomb {
+  background-position: -101px -51px;
+}
+
+.Field--bomb {
+  background-position: -85px -51px;
+}
+
+.Fields--abc-1 {
+  background-position: 0px -68px;
+}
+
+.Fields--abc-2 {
+  background-position: -17px -68px;
+}
+
+.Fields--abc-3 {
+  background-position: -34px -68px;
+}
+
+.Fields--abc-4 {
+  background-position: -51px -68px;
+}
+
+.Fields--abc-5 {
+  background-position: -68px -68px;
+}
+
+.Fields--abc-6 {
+  background-position: -85px -68px;
+}
+
+.Fields--abc-7 {
+  background-position: -102px -68px;
+}
+
+.Fields--abc-8 {
+  background-position: -119px -68px;
+}
+
