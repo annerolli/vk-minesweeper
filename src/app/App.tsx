@@ -1,7 +1,8 @@
 import './styles';
 
 import { FC } from 'react';
+import { Minesweeper } from '../widgets/minesweeper';
 
 export const App: FC = () => {
-  return <h1>VK Minesweeper</h1>;
+  return <Minesweeper />;
 };
