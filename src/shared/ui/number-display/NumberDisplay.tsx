@@ -13,6 +13,10 @@ type TProps = {
 };
 
 export const NumberDisplay: FC<TProps> = ({ value, digitCount = 3 }) => {
+  if (digitCount < 1) {
+    digitCount = 1;
+  }
+
   let elements = Array.from(value.toString());
 
   if (elements.length < digitCount) {
@@ -20,6 +24,8 @@ export const NumberDisplay: FC<TProps> = ({ value, digitCount = 3 }) => {
     const rest = Array.from({ length: diff }, () => '0');
 
     elements = [...rest, ...elements];
+  } else if (elements.length > digitCount) {
+    elements = Array.from({ length: digitCount }, () => '9');
   }
 
   return (
